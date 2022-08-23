@@ -22,26 +22,71 @@
 
 # <a name="2"></a>2.0 Security Operations
 ## 2.1 Given a scenario, perform threat management activities.
+### 🔳 Intelligence types
+### 🔳 Actor types
+### 🔳 Threat actor properties
+### 🔳 Frameworks
 ## 2.2 Given a scenario, analyze indicators of compromise and formulatee ab appropriate response.
+### 🔳 Indicators of compromise
+### 🔳 Response
 ## 2.3 Given a scenario, perform vulnerability management activities.
 ## 2.4 Given a scenario, use the appropriate vulnerability assessment and penetration testing methods and tools.
+### 🔳 Methods
+### 🔳 Tools
+### 🔳 Dependency management
+### 🔳 Requirements
 ## 2.5 Given a scenario, analyze vulnerabilities and recommend risk mitigations.
 ## 2.6 Given a scenario, use processes to reduce risk.
 ## 2.7 Given an incident, implement the appropriate response.
 ## 2.8 Explain the importance of forensic concepts.
 ## 2.9 Given a scenario, use forensic analysis tools.
+### 🔳 File carving tools
+### 🔳 Binary analysis tools
+### 🔳 Analysis tools
+### 🔳 Imaging tools
+### 🔳 Hashing utilities
+### 🔳 Live collection vs post-mortem tools
 
 # <a name="3"></a>3.0 Security Engineering and Cyptography
-## 3.1 Given a scenario, apply secure configurations to enterprise mobility
+## 3.1 Given a scenario, apply secure configurations to enterprise mobility.
+### 🔳 Managed configurations
+### 🔳 Deployment scenarios
+### 🔳 Security considerations
 ## 3.2 Given a scenario, configure and implement endpoint security controls.
 ## 3.3 Explain security considerations impacting specific sectors and operational technologies.
+### 🔳 Embedded
+### 🔳 ICS/supervisory control and data acquisition (SCADA)
+### 🔳 Protocols
+### 🔳 Sectors
 ## 3.4 Explain how cloud technology adoption impacts organizational security.
 ## 3.5 Given a business requirement, implement the appropriate PKI solution.
 ## 3.6 Given a business requirement, implement the appropriate cryptographic protocols and algorithms.
 ## 3.7 Given a scenario, troubleshoot issues with cryptographic implementations.
+### 🔳 Implementation and configuration issues
+### 🔳 Keys
 
 # <a name="4"></a>4.0 Governance, Risk, and Compliance
 ## 4.1 Given a set of requirements, apply the appropriate risk strategies.
 ## 4.2 Explain the importance of managing and mitigating vendor risk.
 ## 4.3 Explain compliance frameworks and legal considerations, and their organizational impact.
 ## 4.4 Explain the importance of business continuity and disaster recovery concepts.
+### 🔳 Business impact analysis
+#### Recovery point objective
+#### Recovery time objective
+#### Recovery service level
+#### Mission essential functions
+### 🔳 Privacy impact assessment
+### 🔳 Disaster recovery plan (DRP)/ business continuity plan (BCP)
+#### Cold site
+#### Warm site
+#### Hot site
+#### Mobile site
+### 🔳 Incident response plan
+#### Roles/responsibilities
+#### After-action reports
+### 🔳 Testing plans
+#### Checklist
+#### Walk-through
+#### Tabletop exercises
+#### Full interruption test
+#### Parallel test/simulation test
