@@ -317,10 +317,12 @@
 ####
 ####
 ### 🔳 Actor types
-####
-####
-####
-####
+#### Advanced persistent threat (APT)/nation-state
+#### Insider threat
+#### Competitor
+#### Hacktivist
+#### Script kiddie
+#### Organized crime
 ### 🔳 Threat actor properties
 ####
 ####
@@ -349,11 +351,10 @@
 
 ## 2.3 Given a scenario, perform vulnerability management activities.
 ### 🔳 Vulnerability scans
-####
-####
-####
-####
-####
+#### Credentialed vs. non-credentialed
+#### Agent-based/server-based
+#### Criticality ranking
+#### Active vs. passive
 ### 🔳 Security Content Automation Protocol (SCAP)
 ####
 ####
@@ -363,11 +364,11 @@
 ### 🔳 Self-assessment vs. third-party vendor assessment
 ### 🔳 Patch management
 ### 🔳 Information sources
-####
-####
-####
-####
-####
+#### Advisories
+#### Bulletins
+#### Vendor websites
+#### Information Sharing and Analysis Centers (ISACs)
+#### News reports
 
 ## 2.4 Given a scenario, use the appropriate vulnerability assessment and penetration testing methods and tools.
 ### 🔳 Methods
@@ -415,30 +416,31 @@
 ####
 ####
 ### 🔳 Preventive
-####
-####
-####
-####
+#### Antivirus
+#### Immutable systems
+#### Hardening
+#### Sandbox detonation
 ### 🔳 Application control
 ####
 ####
 ####
 ### 🔳 Security automation
-####
-####
-####
-####
+#### Cron/scheduled tasks
+#### Bash
+#### PowerShell
+#### Python
 ### 🔳 Physical security
-####
-####
-####
+#### Review of lighting
+#### Review of visitor logs
+#### Camera reviews
+#### Open spaces vs. confined spaces
 
 ## 2.7 Given an incident, implement the appropriate response.
 ### 🔳 Event classifications
-####
-####
-####
-####
+#### Flase positive
+#### False negative
+#### True positive
+#### True negative
 ### 🔳 Triage event
 ### 🔳 Preescalation tasks
 ### 🔳 Incident response process
@@ -469,10 +471,8 @@
 
 ## 2.9 Given a scenario, use forensic analysis tools.
 ### 🔳 File carving tools
-####
-####
-####
-####
+#### Foremost
+#### Strings
 ### 🔳 Binary analysis tools
 ####
 ####
@@ -483,9 +483,8 @@
 ####
 ####
 ### 🔳 Imaging tools
-####
-####
-####
+#### Forensic Toolkit (FTK) Imager
+#### dd
 ### 🔳 Hashing utilities
 ####
 ####
@@ -520,9 +519,11 @@
 ####
 ####
 ### 🔳 Processes
-####
-####
-####
+#### Patching
+##### Firmware
+##### Application
+#### Logging
+#### Monitoring
 ### 🔳 Mandatory access control
 ####
 ####
@@ -553,30 +554,29 @@
 ####
 ####
 ### 🔳 Sectors
-####
-####
-####
-####
+#### Energy
+#### Manufacturing
+#### Healthcare
+#### Public utilities
+#### Public services
+#### Facility services
 
 ## 3.4 Explain how cloud technology adoption impacts organizational security.
 ### 🔳 Automation and orchestration
 ### 🔳 Encryption configuration
 ### 🔳 Logs
-####
-####
-####
-####
-####
-####
-####
+#### Availability
+#### Collection
+#### Monitoring
+#### Configuration
+#### Alerting
 ### 🔳 Monitoring configurations
 ### 🔳 Key ownership and location
 ### 🔳 Key life-cycle management
 ### 🔳 Backup and recovery methods
-####
-####
-####
-####
+#### Cloud as business continuity and disaster recovery (BCDR)
+#### Primary provider BCDR
+#### Alternative provider BCDR
 ### 🔳 Infrastructure vs. serverless computing
 ### 🔳 Application virtualization
 ### 🔳 Software-defined networking
@@ -593,18 +593,18 @@
 ####
 ####
 ### 🔳 Certificate types
-####
-####
-####
-####
+#### Wildcard certificate
+#### Extended validation
+#### Multidomain
+#### General purpose
 ### 🔳 Certification usages/profiles/templates
 ####
 ####
 ####
 ####
 ### 🔳 Extensions
-####
-####
+#### Common name (CN)
+#### Subject alternate name (SAN)
 ### 🔳 Trusted providers
 ### 🔳 Trust model
 ### 🔳 Cross-certification
@@ -638,14 +638,13 @@
 ####
 ####
 ### 🔳 Elliptic curve cryptography
-####
-####
+#### P256
+#### P384
 ### 🔳 Forward secrecy
 ### 🔳 Authenticated encryption with associated data
 ### 🔳 Key stretching
-####
-####
-####
+#### Password-based key derivation fuction 2 (PBKDF2)
+#### Bcrypt
 
 ## 3.7 Given a scenario, troubleshoot issues with cryptographic implementations.
 ### 🔳 Implementation and configuration issues
@@ -654,10 +653,15 @@
 ####
 ####
 ### 🔳 Keys
-####
-####
-####
-####
+#### Mismatched
+#### Improper key handling
+#### Embedded keys
+#### Rekeying
+#### Exposed private keys
+#### Crypto shredding
+#### Cryptographic obfuscation
+#### Key rotation
+#### Compromised keys
 
 # <a name="4"></a>4.0 Governance, Risk, and Compliance
 ## 4.1 Given a set of requirements, apply the appropriate risk strategies.
