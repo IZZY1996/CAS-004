@@ -100,9 +100,49 @@
 
 ## 1.3 Given a scenario, integrate software applications securely into an enterprise architecture.
 ### 🔳 Baseline and templates
+#### Secure design patterns/ types of web technologies
+##### Storage design patterns
+#### Container APIs
+#### Secure coding standards
+#### Application vetting processes
+#### API management
+#### Middleware
 ### 🔳 Software assurance
+#### Sandboxing/ development environment
+#### Validating thrid-party libraries
+#### Defined DevOps pipeline
+#### Code signing
+#### Interactive application security testing (IAST) vs. dynamic application security testing (DAST) vs. static application security testing (SAST)
 ### 🔳 Considerations of integrating enterprise applications
+#### Customer relationship management (CRM)
+#### Enterprise resource planning (ERP)
+#### Configuration management database (CMDB)
+#### Content management system (CMS)
+#### Integration enablers
+##### Directory services
+##### Domain name system (DNS)
+##### Service-oriented architecture (SOA)
+##### Enterprise service bus (ESB)
 ### 🔳 Integrating security into development life cycle
+#### Formal methods
+#### Requirements
+#### Fielding
+#### Insertions and upgrades
+#### Disposal and reuse
+#### Testing
+##### Regression
+##### Unit testing
+##### Integration testing
+#### Development approaches
+##### SecDevOps
+##### Agile
+##### Waterfall
+##### Spiral
+##### Versioning
+##### Continuous integration/ continuous delivery (CI/CD) pipelines
+#### Best practices
+##### Open Web Application Security Project (OWASP)
+##### Proper Hypertext Transfer Protocol (HTTP) headers
 
 ## 1.4 Given a scenario, implement data security techniques for securing enterprise architecture.
 ### 🔳 Data loss prevention
@@ -147,7 +187,23 @@
 ### 🔳 Non-repudiation
 ### 🔳 Compliance and policy requirements
 ### 🔳 Common cryptography use cases
+#### Data at rest
+#### Data in transit
+#### Data in process/data in use
+#### protection of web services
+#### Embedded systems
+#### Key escrow/management
+#### Mobile security
+#### Secure authentication
+#### Smart card
 ### 🔳 Common PKI use cases
+#### Web services
+#### Email
+#### Code signing 
+#### Federation
+#### Trust models
+#### VPN
+#### Enterprise and security automation/orchestration
 
 ## 1.8 Explain the impact of emerging technologies on enterprise security and privacy.
 ### 🔳 Artificial intelligence
