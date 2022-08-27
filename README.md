@@ -411,44 +411,96 @@
 #### Post-exploitation
 #### Persistence
 ### 🔳 Tools
-#### 
-#### 
-#### 
-#### 
+#### SCAP scanner
+#### Network traffic analyzer 
+#### Vulnerability scanner 
+#### Protocol analyzer
+#### Port scanner
+#### HTTP interceptor
+#### Exploit framework
+#### Password cracker
 ### 🔳 Dependency management
 ### 🔳 Requirements
-#### 
-#### 
-#### 
-#### 
+#### Scope of work
+#### Invasive vs. non-invasive
+#### Asset inventory
+#### Permissions and access
+#### Corporate policy considerations
+#### Facility considerations
+#### Physical security considerations
+#### Rescan for corrections/changes
 
 ## 2.5 Given a scenario, analyze vulnerabilities and recommend risk mitigations.
 ### 🔳 Vulnerabilities
-####
-####
-####
-####
+#### Race conditions
+#### Overflows
+##### Buffer
+##### Integer
+#### Broken authentication
+#### Unsecure references
+#### Poor exception handling
+#### Security misconfiguration
+#### Improper headers
+#### Information disclosure
+#### Certificate errors
+#### Weak cryptography implementations
+#### Weak ciphers
+#### Weak cipher suite implementations
+#### Software composition analysis
+#### Use of vulnerable frameworks and software modules
+#### Use of unsafe functions
+#### Third-party libraries
+##### Dependencies
+#### Code injections/malicious changes
+#### End of support/end of life 
+#### Regression issues
 ### 🔳 Inherently vulnerable system/application
-####
-####
-####
-####
+#### Client-side processing vs. server-side processing
+#### JSON/representaional state tranfer (REST)
+#### Browser extensions
+##### Flash
+##### ActiveX
+#### Hypertext Markup Language 5 (HTML5)
+#### Asynchronous JavaScript and XLM (AJAX)
+#### Simple Object Access Protocol (SOAP)
+#### Machine code vs. bytecode or interpreted vs. emulated
 ### 🔳 Attacks
-####
-####
-####
-####
+#### Directory traversal
+#### Cross-site scripting (XSS)
+#### Cross-site request forgery (CSRF)
+#### Injection
+##### XML
+##### LDAP
+##### Structured Query Language (SQL)
+##### Command
+##### Process
+#### Sandbox escape
+#### Virtual machine (VM) hopping
+#### VM escape
+#### Border Gateway Protocol (BGP)/ route hijacking 
+#### Interception attacks
+#### Denial-of-service (DOS)/DDOS
+#### Authentication bypass
+#### Social engineering
+#### VLAN hopping
 
 ## 2.6 Given a scenario, use processes to reduce risk.
 ### 🔳 Proactive and detection
-####
-####
-####
-####
+#### Hunts
+#### Developing countermeasures
+#### Deceptive technologies
+##### Honeynet
+##### Honeypot
+##### Decoy files
+##### Simulators
+##### Synamic network configurations
 ### 🔳 Security data analytics
-####
-####
-####
+#### Processing pipelines
+##### Data
+##### Stream
+#### Indexing and search
+#### Log collection and curation
+#### Database activity monitoring
 ### 🔳 Preventive
 #### Antivirus
 #### Immutable systems
