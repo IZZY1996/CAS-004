@@ -146,24 +146,80 @@
 
 ## 1.4 Given a scenario, implement data security techniques for securing enterprise architecture.
 ### 🔳 Data loss prevention
+#### Blocking use of external media
+#### Print blocking
+#### Remote Desktop Protocol (RDP) blocking
+#### Clipboard privacy controls
+#### Restricted virtual desktop infrasucture (VDI) implementation 
+#### Data classification blocking
 ### 🔳 Data loss detection
+#### Watermarking
+#### Digital rights management (DRM)
+#### Network traffic decryption/ deep packet inspection
+#### Network traffic analysis
 ### 🔳 Data classification, labeling, and tagging
+#### Metadata/attributes
 ### 🔳 Obfuscation
+#### Tockenization
+#### Scrubbing
+#### Masking
 ### 🔳 Anonymization
 ### 🔳 Encrypted vs. unencrypted
 ### 🔳 Data life cycle
+#### Create
+#### Use
+#### Share
+#### Store
+#### Archive
+#### Destroy
 ### 🔳 Data inventory and mapping
 ### 🔳 Data integrity management
 ### 🔳 Data storage, backup, and recovery
+#### Redundant array of inexpensive disks (RAID)
 
 ## 1.5 Given a scenario, analyze the security requirements and objectives to provide the appropriate authentication and authorization controls.
 ### 🔳 Credential management
+#### Password repository application
+##### End-user password storage
+##### On premises vs. cloud repository
+#### Hardware key manager
+#### Privileged access management
 ### 🔳 Password policies
+#### Complexity
+#### Length
+#### Character classes
+#### History
+#### Maximum/minimum age
+#### Auditing
+#### Reversable encryption
 ### 🔳 Federation
+#### Transitive trust
+#### OpenID
+#### Security Assertion Markup Language (SAML)
+#### Shibboleth
 ### 🔳 Access control
+#### Mandatory access control (MAC)
+#### Discretionary access control (DAC)
+#### Role-based access control
+#### Rule-based access control
+#### Attribute-based access control
 ### 🔳 Protocols
+#### Remote Authentication Dial-in User Server (RADIUS)
+#### Terminal Access Controller Access Control System (TACACS)
+#### Diameter
+#### Lightweight Directory Access Protocol (LDAP)
+#### Kerberos
+#### OAuth
+#### 802.1X
+#### Extsible Authentication Protocol (EAP)
 ### 🔳 Multifactor authentication (MFA)
+#### Two-factor authentication (2FA)
+#### 2-Step verification
+#### In-band
+#### Out-of-band
 ### 🔳 One-time password (OTP)
+#### HMAC-based one-time password (HOTP)
+#### Time-based one-time password (TOTP)
 ### 🔳 Hardware root of trust
 ### 🔳 Single sing-on (SSO)
 ### 🔳 JavaScript Object Notation (JSON) web tocken (JWT)
@@ -171,15 +227,43 @@
 
 ## 1.6 Given a set of requirements, implement secure cloud and virtualization solutions.
 ### 🔳 Virtualization strategies
+#### Type 1 vs. Type 2 hypervisors
+#### Containers
+#### Emulation
+#### Application virtualization
+#### VDI
 ### 🔳 Provisioning and deprovisioning
 ### 🔳 Middleware
 ### 🔳 Metadata and tags
 ### 🔳 Deployment models and considerations
+#### Business directives
+##### Cost
+##### Scalability
+##### Resources
+##### Location
+##### Data protection
+#### Cloud deployment models
+##### Private
+##### Public
+##### Hybrid
+##### Community
 ### 🔳 Hosting models
+#### Multitenant
+#### Single-tenant
 ### 🔳 Service models
+#### Software as a service (SAAS)
+#### Platform as a serice (PAAS)
+#### Infrastucture as a service (IAAS)
 ### 🔳 Cloud provider limitations
+#### Internet Protocol (IP) address scheme
+#### VPC peering
 ### 🔳 Extending appropriate on-premises controls
 ### 🔳 Storage models
+#### Object storage/file-based storage
+#### Database storage
+#### Block storage
+#### Blob storage
+#### Key-value pairs
 
 ## 1.7 Explain how cryptography and public key infrastructure (PKI) support security objectives and requirements.
 ### 🔳 Privacy and confidentiality requirements
