@@ -313,92 +313,298 @@
 # <a name="2"></a>2.0 Security Operations
 ## 2.1 Given a scenario, perform threat management activities.
 ### 🔳 Intelligence types
+####
+####
+####
 ### 🔳 Actor types
+####
+####
+####
+####
 ### 🔳 Threat actor properties
+####
+####
+####
 ### 🔳 Frameworks
+####
+####
+####
+####
+
 ## 2.2 Given a scenario, analyze indicators of compromise and formulatee ab appropriate response.
 ### 🔳 Indicators of compromise
+####
+####
+####
+####
+####
 ### 🔳 Response
+####
+####
+####
+####
+####
+####
+####
+
 ## 2.3 Given a scenario, perform vulnerability management activities.
 ### 🔳 Vulnerability scans
+####
+####
+####
+####
+####
 ### 🔳 Security Content Automation Protocol (SCAP)
+####
+####
+####
+####
+####
 ### 🔳 Self-assessment vs. third-party vendor assessment
 ### 🔳 Patch management
 ### 🔳 Information sources
+####
+####
+####
+####
+####
+
 ## 2.4 Given a scenario, use the appropriate vulnerability assessment and penetration testing methods and tools.
 ### 🔳 Methods
+####
+####
+####
+####
 ### 🔳 Tools
+####
+####
+####
+####
 ### 🔳 Dependency management
 ### 🔳 Requirements
+####
+####
+####
+####
+
 ## 2.5 Given a scenario, analyze vulnerabilities and recommend risk mitigations.
 ### 🔳 Vulnerabilities
+####
+####
+####
+####
 ### 🔳 Inherently vulnerable system/application
+####
+####
+####
+####
 ### 🔳 Attacks
+####
+####
+####
+####
+
 ## 2.6 Given a scenario, use processes to reduce risk.
 ### 🔳 Proactive and detection
+####
+####
+####
+####
 ### 🔳 Security data analytics
+####
+####
+####
 ### 🔳 Preventive
+####
+####
+####
+####
 ### 🔳 Application control
+####
+####
+####
 ### 🔳 Security automation
+####
+####
+####
+####
 ### 🔳 Physical security
+####
+####
+####
+
 ## 2.7 Given an incident, implement the appropriate response.
 ### 🔳 Event classifications
+####
+####
+####
+####
 ### 🔳 Triage event
 ### 🔳 Preescalation tasks
 ### 🔳 Incident response process
+####
+####
+####
+####
 ### 🔳 Specific response playbooks/processes
+####
+####
+####
+####
+####
 ### 🔳 Communication plan
 ### 🔳 Stakeholder management
+
 ## 2.8 Explain the importance of forensic concepts.
 ### 🔳 Legal vs. internal corporate purposes
 ### 🔳 Forensic process
+####
+####
+####
+####
 ### 🔳 Integrity preservation
+#### Hashing
 ### 🔳 Cryptanalysis
 ### 🔳 Steganalysis
+
 ## 2.9 Given a scenario, use forensic analysis tools.
 ### 🔳 File carving tools
+####
+####
+####
+####
 ### 🔳 Binary analysis tools
+####
+####
+####
+####
 ### 🔳 Analysis tools
+####
+####
+####
 ### 🔳 Imaging tools
+####
+####
+####
 ### 🔳 Hashing utilities
+####
+####
+####
 ### 🔳 Live collection vs post-mortem tools
+####
+####
+####
 
 # <a name="3"></a>3.0 Security Engineering and Cyptography
 ## 3.1 Given a scenario, apply secure configurations to enterprise mobility.
 ### 🔳 Managed configurations
+####
+####
+####
+####
 ### 🔳 Deployment scenarios
+####
+####
+####
 ### 🔳 Security considerations
+####
+####
+####
+####
+####
+
 ## 3.2 Given a scenario, configure and implement endpoint security controls.
 ### 🔳 Hardening techniques
+####
+####
+####
+####
 ### 🔳 Processes
+####
+####
+####
 ### 🔳 Mandatory access control
+####
+####
+####
+####
 ### 🔳 Trustworthy computing
+####
+####
+####
 ### 🔳 Compensating controls
+####
+####
+####
+####
+
 ## 3.3 Explain security considerations impacting specific sectors and operational technologies.
 ### 🔳 Embedded
+####
+####
+####
 ### 🔳 ICS/supervisory control and data acquisition (SCADA)
+####
+####
+####
+####
 ### 🔳 Protocols
+####
+####
+####
 ### 🔳 Sectors
+####
+####
+####
+####
+
 ## 3.4 Explain how cloud technology adoption impacts organizational security.
 ### 🔳 Automation and orchestration
 ### 🔳 Encryption configuration
 ### 🔳 Logs
+####
+####
+####
+####
+####
+####
+####
 ### 🔳 Monitoring configurations
 ### 🔳 Key ownership and location
 ### 🔳 Key life-cycle management
 ### 🔳 Backup and recovery methods
+####
+####
+####
+####
 ### 🔳 Infrastructure vs. serverless computing
 ### 🔳 Application virtualization
 ### 🔳 Software-defined networking
 ### 🔳 Misconfigurations
 ### 🔳 Collaboration tools
 ### 🔳 Storage configurations
+#### Bit splitting
+#### Data dispersion
 ### 🔳 Cloud access security broker (CASB)
+
 ## 3.5 Given a business requirement, implement the appropriate PKI solution.
 ### 🔳 PKI hierarchy
+####
+####
+####
 ### 🔳 Certificate types
+####
+####
+####
+####
 ### 🔳 Certification usages/profiles/templates
+####
+####
+####
+####
 ### 🔳 Extensions
+####
+####
 ### 🔳 Trusted providers
 ### 🔳 Trust model
 ### 🔳 Cross-certification
@@ -411,18 +617,47 @@
 ### 🔳 Certificate signing requests (CSRs)
 ### 🔳 Online Certificate Status Protocol (OCSP) vs. certificate revocation list (CRL)
 ### 🔳 HTTP Strict Transport Security (HSTS) 
+
 ## 3.6 Given a business requirement, implement the appropriate cryptographic protocols and algorithms.
 ### 🔳 Hashing
+####
+####
+####
 ### 🔳 Symmetric algorithms
+####
+####
+####
+####
 ### 🔳 Asymmetric algorithms
+####
+####
+####
 ### 🔳 Protocols
+####
+####
+####
+####
 ### 🔳 Elliptic curve cryptography
+####
+####
 ### 🔳 Forward secrecy
 ### 🔳 Authenticated encryption with associated data
 ### 🔳 Key stretching
+####
+####
+####
+
 ## 3.7 Given a scenario, troubleshoot issues with cryptographic implementations.
 ### 🔳 Implementation and configuration issues
+####
+####
+####
+####
 ### 🔳 Keys
+####
+####
+####
+####
 
 # <a name="4"></a>4.0 Governance, Risk, and Compliance
 ## 4.1 Given a set of requirements, apply the appropriate risk strategies.
