@@ -531,26 +531,41 @@
 ### 🔳 Triage event
 ### 🔳 Preescalation tasks
 ### 🔳 Incident response process
-####
-####
-####
-####
+#### Preperation
+#### Detection
+#### Analysis
+#### Containment
+#### Recovery
+#### Lessons learned
 ### 🔳 Specific response playbooks/processes
-####
-####
-####
-####
-####
+#### Scenarios
+##### Ransomeware
+##### Data exfiltration
+##### Social engineering
+#### Non-automated response methods
+#### Automated response methods
+##### Runbooks
+##### SOAR
 ### 🔳 Communication plan
 ### 🔳 Stakeholder management
 
 ## 2.8 Explain the importance of forensic concepts.
 ### 🔳 Legal vs. internal corporate purposes
 ### 🔳 Forensic process
-####
-####
-####
-####
+#### Identification
+#### Evidence collection
+##### Chain of custody
+##### Order of volatility
+###### Memory snapshots
+###### Images
+##### Cloning
+#### Evidence preservation
+##### Secure storage
+##### Backups
+#### Analysis
+##### Forensics tools
+#### Verification
+#### Presentation
 ### 🔳 Integrity preservation
 #### Hashing
 ### 🔳 Cryptanalysis
@@ -561,25 +576,39 @@
 #### Foremost
 #### Strings
 ### 🔳 Binary analysis tools
-####
-####
-####
-####
+#### Hex dump
+#### Binwalk
+#### Ghidra
+#### GNU Project debugger (GDB)
+#### OllyDbg
+#### readelf
+#### objdump
+#### strace
+#### ldd
+#### file
 ### 🔳 Analysis tools
-####
-####
-####
+#### ExifTool
+#### Nmap
+#### Aircrack-ng
+#### Volatility
+#### The Sleuth Kit
+#### Dynamically vs. statically linked
 ### 🔳 Imaging tools
 #### Forensic Toolkit (FTK) Imager
 #### dd
 ### 🔳 Hashing utilities
-####
-####
-####
+#### sha256sum
+#### ssdeep
 ### 🔳 Live collection vs post-mortem tools
-####
-####
-####
+#### netstat
+#### ps
+#### vmstat
+#### ldd
+#### lsof
+#### netcat
+#### tcpdump
+#### conntrack
+#### Wireshark
 
 # <a name="3"></a>3.0 Security Engineering and Cyptography
 ## 3.1 Given a scenario, apply secure configurations to enterprise mobility.
