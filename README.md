@@ -13,10 +13,69 @@
 # <a name="1"></a>1.0 Security Architecture
 ## 1.1 Given a scenario, analyze the security requirements and objectives to ensure an appropriate, secure network architecture for a new or existing network.
 ### 🔳 Services
+#### Load balancer
+#### Intrusion detection system (IDS)/ network intrusion detection system (NIDS)/ wireless intrusion detection system (WIDS) 
+#### Instrusion prevention system (IPS)/ network intrusion prevention system (NIPS)/ wireless intrusion prevention system (WIPS)
+#### Web application firewall (WAF)
+#### Network access control (NAC)
+#### Virtual private network (VPN)
+#### Domain Name System Security Extensions (DNSSEC)
+#### Firewall/ unified threat management (UTM)/ next-generation firewall (NGFW) 
+#### Network address translation (NAT) gateway
+#### Internet gateway
+#### Forward/transparent proxy
+#### Reverse proxy
+#### Distributed denial-of-service (DDOS) protection
+#### Routers
+#### Mail security
+#### Application programming interface (API) gateway/ Extensible Markup Language (XML) gateway
+#### Traffic mirroring
+##### Switched port analyzer (SPAN) ports
+##### Port mirroring
+##### Virtual private cloud (VPC)
+##### Network tap
+#### Sensors
+##### Security information and event management (SIEM)
+##### File integrity monitoring (FIM)
+##### Simple Network Management Protocol (SNMP) traps
+##### NetFlow
+##### Data loss prevention (DLP)
+##### Antivirus
 ### 🔳 Segmentation
+#### Microsegmentation
+#### Local area network (LAN)/ virtual local area network (VLAN)
+#### Jump box
+#### Screened subnet
+#### Data zones
+#### Staging environments
+#### Guest environments
+#### VPC/ virtual network (VNET)
+#### Availability zone
+#### NAC lists
+#### Policies / security groups
+#### Regions
+#### Access control lists (ACLs)
+#### Peer-to-peer
+#### Air gap
 ### 🔳 Deperimeterization/zero trust
+#### Cloud
+#### Remote work
+#### Mobile
+#### Outsourcing and contracting
+#### Wireless/ radio frequency (RF) networks
 ### 🔳 Merging of networks from various organizations
+#### Peering
+#### Cloud to on premises
+#### Data sensitivity levels
+#### Mergers and acquisitions
+#### Cross-domain
+#### Federation
+#### Directory services
 ### 🔳 Software-defined networking (SDN)
+#### Open SDN
+#### Hybrid SDN
+#### SDN overlay
+
 ## 1.2 Given a scenario, analyze the organizational requirements to determine the proper infrastructure security design.
 ### 🔳 Scalability
 ### 🔳 Resiliency
