@@ -78,18 +78,32 @@
 
 ## 1.2 Given a scenario, analyze the organizational requirements to determine the proper infrastructure security design.
 ### 🔳 Scalability
+#### Vertically
+#### Horizontally
 ### 🔳 Resiliency
+#### High availability
+#### Diversity/ heterogeneity
+#### Course of action orchestration
+#### Distributed allocation
+#### Redundancy
+#### Replication
+#### Clustering
 ### 🔳 Automation
+#### Autoscaling
+#### Security Orchestration, Automation, and Response (SOAR)
+#### Bootstrapping
 ### 🔳 Performance
 ### 🔳 Containerization
 ### 🔳 Virtualization
 ### 🔳 Content delivery network
 ### 🔳 Caching
+
 ## 1.3 Given a scenario, integrate software applications securely into an enterprise architecture.
 ### 🔳 Baseline and templates
 ### 🔳 Software assurance
 ### 🔳 Considerations of integrating enterprise applications
 ### 🔳 Integrating security into development life cycle
+
 ## 1.4 Given a scenario, implement data security techniques for securing enterprise architecture.
 ### 🔳 Data loss prevention
 ### 🔳 Data loss detection
@@ -101,6 +115,7 @@
 ### 🔳 Data inventory and mapping
 ### 🔳 Data integrity management
 ### 🔳 Data storage, backup, and recovery
+
 ## 1.5 Given a scenario, analyze the security requirements and objectives to provide the appropriate authentication and authorization controls.
 ### 🔳 Credential management
 ### 🔳 Password policies
@@ -113,6 +128,7 @@
 ### 🔳 Single sing-on (SSO)
 ### 🔳 JavaScript Object Notation (JSON) web tocken (JWT)
 ### 🔳 Attestation and identity proofing
+
 ## 1.6 Given a set of requirements, implement secure cloud and virtualization solutions.
 ### 🔳 Virtualization strategies
 ### 🔳 Provisioning and deprovisioning
@@ -124,6 +140,7 @@
 ### 🔳 Cloud provider limitations
 ### 🔳 Extending appropriate on-premises controls
 ### 🔳 Storage models
+
 ## 1.7 Explain how cryptography and public key infrastructure (PKI) support security objectives and requirements.
 ### 🔳 Privacy and confidentiality requirements
 ### 🔳 Integrity requirements
@@ -131,12 +148,16 @@
 ### 🔳 Compliance and policy requirements
 ### 🔳 Common cryptography use cases
 ### 🔳 Common PKI use cases
+
 ## 1.8 Explain the impact of emerging technologies on enterprise security and privacy.
 ### 🔳 Artificial intelligence
 ### 🔳 Machine learning
 ### 🔳 Quantum computing
 ### 🔳 Blockchain
 ### 🔳 Homomorphic encryption
+#### Private information retrieval
+#### Secure function evaluation
+#### Private function evaluation
 ### 🔳 Secure multiparty computation
 ### 🔳 Distributed consensus
 ### 🔳 Big Data
@@ -145,6 +166,8 @@
 ### 🔳 Passwordless authentication
 ### 🔳 Nano technology
 ### 🔳 Deep learning
+#### Natual language processing
+#### Deep fakes
 ### 🔳 Biometric impersonation
 
 # <a name="2"></a>2.0 Security Operations
