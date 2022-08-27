@@ -313,9 +313,13 @@
 # <a name="2"></a>2.0 Security Operations
 ## 2.1 Given a scenario, perform threat management activities.
 ### 🔳 Intelligence types
-####
-####
-####
+#### Tactical
+##### Commodity malware
+#### Strategic
+##### Targeted attacks
+#### Operational
+##### Threat hunting
+##### Threat emulation
 ### 🔳 Actor types
 #### Advanced persistent threat (APT)/nation-state
 #### Insider threat
@@ -324,30 +328,50 @@
 #### Script kiddie
 #### Organized crime
 ### 🔳 Threat actor properties
-####
-####
-####
+#### Resource
+##### Time
+##### Money
+#### Suppy chain access
+#### Create vulnerabilities
+#### Capabilities/sophistication
+#### Identifying techniques
+### 🔳 Intelligence collection methods
+#### Intelligence feeds
+#### Deep web
+#### Proprietary
+#### Open-source intelligence (OSINT)
+#### Human intelligence (HUMINT)
 ### 🔳 Frameworks
-####
-####
-####
-####
+#### MITRE Adversarial Tactics, Techniques, & Common knowledge (ATT&CK)
+##### ATT&CK for industrial control systems (ICS)
+#### Diamond Model of Intrusion Analysis
+#### Cyber Kill Chain
 
 ## 2.2 Given a scenario, analyze indicators of compromise and formulatee ab appropriate response.
 ### 🔳 Indicators of compromise
-####
-####
-####
-####
-####
+#### Packet capture (PCAP)
+#### Logs
+##### Network logs
+##### Vulnerability logs
+##### Operating system logs
+##### Access logs
+##### NetFlow logs
+#### Notifications
+##### FIM alerts 
+##### SIEN alerts
+##### DLP alerts
+##### IDS/IPS alerts
+##### Antivirus alerts
+#### Notification serverity/priorities
+#### Unusual process activity
 ### 🔳 Response
-####
-####
-####
-####
-####
-####
-####
+#### Firewall rules
+#### IPS/IDS rules
+#### ACL rules
+#### Signature rules
+#### Behavior rules
+#### DLP rules
+#### Scripts/regular expressions
 
 ## 2.3 Given a scenario, perform vulnerability management activities.
 ### 🔳 Vulnerability scans
@@ -356,11 +380,13 @@
 #### Criticality ranking
 #### Active vs. passive
 ### 🔳 Security Content Automation Protocol (SCAP)
-####
-####
-####
-####
-####
+#### Extensible Configuration Checklist Description Format (XCCDF)
+#### Open Vulnerability and Assessment Language (OVAL)
+#### Common Platform Enumeration (CPE)
+#### Common Vulnerabilites and Exposures (CVE)
+#### Common Vulnerability Scoring System (CVSS)
+#### Common Configuration Enumeration (CCE)
+#### Asset Reporting Format (ARF)
 ### 🔳 Self-assessment vs. third-party vendor assessment
 ### 🔳 Patch management
 ### 🔳 Information sources
@@ -372,21 +398,29 @@
 
 ## 2.4 Given a scenario, use the appropriate vulnerability assessment and penetration testing methods and tools.
 ### 🔳 Methods
-####
-####
-####
-####
+#### Static analysis
+#### Dynamic analysis
+#### Side-channel analysis
+#### Reverse engineering
+##### Software
+##### Hardware
+#### Wireless vulnerability scan
+#### Software composition analysis
+#### Fuzz testing
+#### Pivoting
+#### Post-exploitation
+#### Persistence
 ### 🔳 Tools
-####
-####
-####
-####
+#### 
+#### 
+#### 
+#### 
 ### 🔳 Dependency management
 ### 🔳 Requirements
-####
-####
-####
-####
+#### 
+#### 
+#### 
+#### 
 
 ## 2.5 Given a scenario, analyze vulnerabilities and recommend risk mitigations.
 ### 🔳 Vulnerabilities
@@ -421,9 +455,10 @@
 #### Hardening
 #### Sandbox detonation
 ### 🔳 Application control
-####
-####
-####
+#### License technologies
+#### Allow list vs. block list 
+#### Time of check vs. time of use
+#### Atomic execution
 ### 🔳 Security automation
 #### Cron/scheduled tasks
 #### Bash
