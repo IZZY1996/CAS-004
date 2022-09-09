@@ -784,11 +784,26 @@
 
 ## 3.6 Given a business requirement, implement the appropriate cryptographic protocols and algorithms.
 ### 🔳 Hashing
+**Hashing** - Takes an arbitrary length string as its input and transforms it into a fixed-length string as its output
+
 #### Secure Hashing Algorithm (SHA)
+In 2015 NIST prohibits the use of the SHA-1 hashing function within US federal agencies
+https://en.wikipedia.org/wiki/SHA-1 <br />
+https://en.wikipedia.org/wiki/SHA-2 <br />
+https://en.wikipedia.org/wiki/SHA-3 <br />
 #### Hash-based message authentication code (HMAC)
+https://www.rfc-editor.org/rfc/rfc2104 <br />
+https://en.wikipedia.org/wiki/HMAC <br />
 #### Message digest (MD)
+https://www.rfc-editor.org/rfc/rfc1321 <br />
+https://www.rfc-editor.org/rfc/rfc6151 <br />
+https://en.wikipedia.org/wiki/MD5 <br />
 #### RACE integrity primitives evaluation message digest (RIPEMD)
+https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.ripemd160 <br />
+https://en.wikipedia.org/wiki/RIPEMD <br />
 #### Poly1305
+https://www.rfc-editor.org/rfc/rfc8439.html <br />
+https://en.wikipedia.org/wiki/Poly1305 <br />
 ### 🔳 Symmetric algorithms
 #### Modes of operation
 ##### Galois/Counter Mode (GCM)
