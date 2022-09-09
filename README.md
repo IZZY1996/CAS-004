@@ -799,6 +799,10 @@ https://www.rfc-editor.org/rfc/rfc1321 <br />
 https://www.rfc-editor.org/rfc/rfc6151 <br />
 https://en.wikipedia.org/wiki/MD5 <br />
 #### RACE integrity primitives evaluation message digest (RIPEMD)
+Powershell 5.1:
+```powershell 5.1
+Get-FileHash -Path ./Autoruns.zip -Algorithm RIPEMD160
+```
 https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.ripemd160 <br />
 https://en.wikipedia.org/wiki/RIPEMD <br />
 #### Poly1305
