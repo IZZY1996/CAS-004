@@ -795,13 +795,31 @@ https://en.wikipedia.org/wiki/SHA-3 <br />
 https://www.rfc-editor.org/rfc/rfc2104 <br />
 https://en.wikipedia.org/wiki/HMAC <br />
 #### Message digest (MD)
+**Linux Bash:**
+```bash
+md5sum Autoruns.zip
+```
+Output:
+```
+c398f4249e7b677105ac754be08c24c1  Autoruns.zip
+```
+**Powershell:**
+```powershell
+get-filehash Autoruns.zip -Algorithm MD5
+```
+Output:
+```
+Algorithm       Hash                                              Path
+---------       ----                                              ----
+MD5             C398F4249E7B677105AC754BE08C24C1                  C:\Users\jacob.petrie\Downloads\Autoruns.zip
+```
 https://www.rfc-editor.org/rfc/rfc1321 <br />
 https://www.rfc-editor.org/rfc/rfc6151 <br />
 https://en.wikipedia.org/wiki/MD5 <br />
 #### RACE integrity primitives evaluation message digest (RIPEMD)
 Powershell 5.1:
 ```powershell 5.1
-Get-FileHash -Path ./Autoruns.zip -Algorithm RIPEMD160
+Get-FileHash Autoruns.zip -Algorithm RIPEMD160
 ```
 https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.ripemd160 <br />
 https://en.wikipedia.org/wiki/RIPEMD <br />
