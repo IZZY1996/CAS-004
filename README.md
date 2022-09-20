@@ -786,8 +786,19 @@
 ### 🔳 Hashing
 **Hashing** - Takes an arbitrary length string as its input and transforms it into a fixed-length string as its output
 
+Can is used in [File Integrity Monitoring (FIPS)](https://en.wikipedia.org/wiki/File_integrity_monitoring)
+
 #### Secure Hashing Algorithm (SHA)
 In 2015 NIST prohibits the use of the SHA-1 hashing function within US federal agencies
+
+Windows Command Prompt:
+```Bash
+certutil -hashfile ZoomInstaller.exe sha256
+```
+[FIPS 180-1](https://csrc.nist.gov/publications/detail/fips/180/1/archive/1995-04-17) (SHA-1) <br />
+[FIPS 180-2](https://csrc.nist.gov/publications/detail/fips/180/2/archive/2002-08-01) (SHA-2) <br />
+[FIPS 180-4](https://csrc.nist.gov/publications/detail/fips/180/4/final) (Current) <br />
+[FIPS 202](https://csrc.nist.gov/publications/detail/fips/202/final) (SHA-3) <br />
 https://en.wikipedia.org/wiki/SHA-1 <br />
 https://en.wikipedia.org/wiki/SHA-2 <br />
 https://en.wikipedia.org/wiki/SHA-3 <br />
