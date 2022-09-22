@@ -786,7 +786,9 @@
 ### 🔳 Hashing
 **Hashing** - Takes an arbitrary length string as its input and transforms it into a fixed-length string as its output
 
-Can is used in [File Integrity Monitoring (FIPS)](https://en.wikipedia.org/wiki/File_integrity_monitoring)
+Is used in [File Integrity Monitoring (FIPS)](https://en.wikipedia.org/wiki/File_integrity_monitoring)
+
+Weak algorithms are susceptible to vulnerabilities such as a *hash collision*, where the output of two different inputs is the same.
 
 #### Secure Hashing Algorithm (SHA)
 In 2015 NIST prohibits the use of the SHA-1 hashing function within US federal agencies
@@ -803,6 +805,10 @@ https://en.wikipedia.org/wiki/SHA-1 <br />
 https://en.wikipedia.org/wiki/SHA-2 <br />
 https://en.wikipedia.org/wiki/SHA-3 <br />
 #### Hash-based message authentication code (HMAC)
+Combines a cryptographic hash of the message with a secret key (symmetric key)
+
+*Reduces* collisions due to the addition of unique outputs
+
 https://www.rfc-editor.org/rfc/rfc2104 <br />
 https://en.wikipedia.org/wiki/HMAC <br />
 #### Message digest (MD)
