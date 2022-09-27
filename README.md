@@ -790,6 +790,8 @@ Is used in [File Integrity Monitoring (FIPS)](https://en.wikipedia.org/wiki/File
 
 Weak algorithms are susceptible to vulnerabilities such as a *hash collision*, where the output of two different inputs is the same.
 
+A `Hashquine` is "A file that shows it's own hash" https://github.com/corkami/collisions/tree/master/hashquines
+
 #### Secure Hashing Algorithm (SHA)
 In 2015 NIST prohibits the use of the SHA-1 hashing function within US federal agencies
 
@@ -813,7 +815,11 @@ https://www.rfc-editor.org/rfc/rfc2104 <br />
 https://en.wikipedia.org/wiki/HMAC <br />
 #### Message digest (MD)
 
-**Very Weak** https://www.mscs.dal.ca/~selinger/md5collision/
+**Very Weak** https://www.mscs.dal.ca/~selinger/md5collision/ <br />
+
+https://github.com/DavidBuchanan314/monomorph Monomorph is a tool that packs shell code into an exicutable and no matter what you put in it, it will always output the same hash.
+
+A tool for detecting collisions like this can be found here https://github.com/cr-marcstevens/hashclash/tree/collisiondetection/src/collisiondetection. 
 
 **Linux Bash:**
 ```bash
