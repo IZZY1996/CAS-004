@@ -790,7 +790,7 @@ Is used in [File Integrity Monitoring (FIPS)](https://en.wikipedia.org/wiki/File
 
 Weak algorithms are susceptible to vulnerabilities such as a *hash collision*, where the output of two different inputs is the same.
 
-A `Hashquine` is "A file that shows it's own hash" https://github.com/corkami/collisions/tree/master/hashquines
+A `Hashquine` is "A file that shows it's own hash" https://github.com/corkami/collisions/tree/master/hashquines and https://www.rogdham.net/2017/03/12/gif-md5-hashquine.en
 
 #### Secure Hashing Algorithm (SHA)
 In 2015 NIST prohibits the use of the SHA-1 hashing function within US federal agencies
