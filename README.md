@@ -812,6 +812,9 @@ Combines a cryptographic hash of the message with a secret key (symmetric key)
 https://www.rfc-editor.org/rfc/rfc2104 <br />
 https://en.wikipedia.org/wiki/HMAC <br />
 #### Message digest (MD)
+
+**Very Weak** https://www.mscs.dal.ca/~selinger/md5collision/
+
 **Linux Bash:**
 ```bash
 md5sum Autoruns.zip
