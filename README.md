@@ -799,20 +799,17 @@ Windows Command Prompt:
 ```Bash
 certutil -hashfile ZoomInstaller.exe sha256
 ```
-[FIPS 180-1](https://csrc.nist.gov/publications/detail/fips/180/1/archive/1995-04-17) (SHA-1) <br />
+[FIPS 180-1](https://csrc.nist.gov/publications/detail/fips/180/1/archive/1995-04-17) (SHA-1) https://en.wikipedia.org/wiki/SHA-1 <br />
 [FIPS 180-2](https://csrc.nist.gov/publications/detail/fips/180/2/archive/2002-08-01) (SHA-2) <br />
-[FIPS 180-4](https://csrc.nist.gov/publications/detail/fips/180/4/final) (Current) <br />
-[FIPS 202](https://csrc.nist.gov/publications/detail/fips/202/final) (SHA-3) <br />
-https://en.wikipedia.org/wiki/SHA-1 <br />
-https://en.wikipedia.org/wiki/SHA-2 <br />
-https://en.wikipedia.org/wiki/SHA-3 <br />
+[FIPS 180-4](https://csrc.nist.gov/publications/detail/fips/180/4/final) (Current) https://en.wikipedia.org/wiki/SHA-2 <br />
+[FIPS 202](https://csrc.nist.gov/publications/detail/fips/202/final) (SHA-3) https://en.wikipedia.org/wiki/SHA-3<br />
 #### Hash-based message authentication code (HMAC)
 Combines a cryptographic hash of the message with a secret key (symmetric key)
 
 *Reduces* collisions due to the addition of unique outputs
 
-https://www.rfc-editor.org/rfc/rfc2104 <br />
-https://en.wikipedia.org/wiki/HMAC <br />
+[RFC 2104](https://www.rfc-editor.org/rfc/rfc2104) <br />
+[HMAC | Wikipedia](https://en.wikipedia.org/wiki/HMAC) <br />
 #### Message digest (MD)
 
 **Very Weak** https://www.mscs.dal.ca/~selinger/md5collision/ <br />
@@ -839,19 +836,19 @@ Algorithm       Hash                                              Path
 ---------       ----                                              ----
 MD5             C398F4249E7B677105AC754BE08C24C1                  C:\Users\jacob.petrie\Downloads\Autoruns.zip
 ```
-https://www.rfc-editor.org/rfc/rfc1321 <br />
-https://www.rfc-editor.org/rfc/rfc6151 <br />
-https://en.wikipedia.org/wiki/MD5 <br />
+[RFC 1321](https://www.rfc-editor.org/rfc/rfc1321) <br />
+[RFC 6151](https://www.rfc-editor.org/rfc/rfc6151) <br />
+[MD5 | Wikipedia](https://en.wikipedia.org/wiki/MD5) <br />
 #### RACE integrity primitives evaluation message digest (RIPEMD)
 Powershell 5.1:
 ```powershell 5.1
 Get-FileHash Autoruns.zip -Algorithm RIPEMD160
 ```
 https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.ripemd160 <br />
-https://en.wikipedia.org/wiki/RIPEMD <br />
+[RIPEMD | Wikipedia](https://en.wikipedia.org/wiki/RIPEMD) <br />
 #### Poly1305
-https://www.rfc-editor.org/rfc/rfc8439.html <br />
-https://en.wikipedia.org/wiki/Poly1305 <br />
+[RFC 8439](https://www.rfc-editor.org/rfc/rfc8439.html) <br />
+[Poly1305 | Wikipedia](https://en.wikipedia.org/wiki/Poly1305) <br />
 ### 🔳 Symmetric algorithms
 #### Modes of operation
 ##### Galois/Counter Mode (GCM)
