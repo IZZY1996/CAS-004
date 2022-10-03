@@ -553,9 +553,25 @@
 ### 🔳 Legal vs. internal corporate purposes
 ### 🔳 Forensic process
 #### Identification
+Ensures the scene is safe, the evidence is not contaminated, and the scope of the evidence is properly identified
 #### Evidence collection
+Ensures authorization to collect the evidence
+
+Legal - Probably a warrant
+
+Internal Corporate - Supervisor's approval or other internal process
 ##### Chain of custody
+The record of evidence history from tcollection to court presentation and disposal
+
+Items should be placed in specialized evidence bags to ensure electronic media cannot be damaged or corrupted by electronic discharge (ESD)
+
+if the device has wireless it should go into a Faraday Bag - (Shields devices from outside signals to prevent data from being altered, deleted, or added to a device)
+
+Legal Hold - Preserves all relevant information when litigation is reasonably expected to occur
 ##### Order of volatility
+Collect evidence that could be modified or destroyed the easiest first
+
+[RFC 3227](https://www.rfc-editor.org/rfc/rfc3227.html)
 ###### Memory snapshots
 ###### Images
 ##### Cloning
@@ -563,9 +579,22 @@
 ##### Secure storage
 ##### Backups
 #### Analysis
+Creates a copy of the evidence for analysis
+
+- Media Analysis <br />
+Disk image - Creates a bit-by-bit copy of a hard disk or USB drive, including the slack space and unallocated space on the drive - Make a Cain of Custody and then a hash digest of the image
+
+Memory snapshot/dump - Conducts memory capture and forensics in a very similar processes used in disk imaging - 
+- Software Analysis <br />
+
+- Network Analysis <br />
+
+- Hardware or Embedded Device Analysis <br />
+
 ##### Forensics tools
 #### Verification
 #### Presentation
+Creates a report of the methods and tools used an then presents detailed findings and conclusions based on the analysis performed
 ### 🔳 Integrity preservation
 #### Hashing
 ### 🔳 Cryptanalysis
